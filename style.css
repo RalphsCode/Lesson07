@@ -1,0 +1,82 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c5f1fe;
+    color: #0e01f9;
+    margin: 3em;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+  h1 {
+    text-shadow: 2px 2px 4px #626262;
+  }
+  
+  /* Style the form */
+.frmMeme {
+    max-width: 460px;
+    padding: 1em;
+    background-color: rgb(140, 220, 251);
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* Style form labels */
+.custom_label {
+    float: left;
+    width: 130px;
+    text-align: left;
+}
+
+/* Container for the image and text */
+.container {
+    position: relative;
+    text-align: center; 
+    }
+
+/* Style the image */
+.image {
+    border-radius: 10px;
+    border: 2px solid#626262;
+    }
+
+/* Style upper text */
+.top_text_overlay {
+    position: absolute;
+    top: 7%; /* vertical position */
+    left: 50%; /* horizontal position */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    }
+
+/* Style lower text */
+.bottom_text_overlay {
+    position: absolute;
+    top: 88%; /* vertical position */
+    left: 50%; /* horizontal position */
+    transform: translate(-50%, -50%); /* Center the text */
+    color: white; 
+    font-size: 24px; 
+    font-weight: bold; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); 
+    } 
+
+/* Style photo URL's */
+    .tiny {
+        color: rgb(63, 63, 63);
+        font-size: 8px
+    }

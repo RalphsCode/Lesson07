@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ralph's Meme Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Ralph's Meme Generator</h1>
+    <div class="container">
+        <form class="frmMeme" id="memeFrm">
+                <label for="pic" class = "custom_label">Image to use:</label>
+            <input type="url" name="pic" placeholder = "https://image.com/image.jpg" id="pic"><br>
+                <label for="topTxt" class = "custom_label">Top Text:</label>
+            <input type="text" name="Top Text" placeholder = "Upper text" id="Top_Text"><br>
+                <label for="BtmTxt" class = "custom_label">Bottom Text:</label>
+            <input type="text" name="Btm Text" placeholder = "Lower text" id="Bottom_Text"><br><br>
+            <button type="submit" class ="button" id="frmSubmit">Submit</button>
+        </form>
+    </div>
+
+    <div id="mainBody">
+        <ul>Cat & Dog photo links:
+            <li class="tiny">https://www.rd.com/wp-content/uploads/2020/12/265860744_1-Courtesy-Jennifer-Pustejovsky.jpg?fit=696%2C696?fit=700,700</li>
+            <li class="tiny">https://i.natgeofe.com/k/15bfae55-6fd6-4295-9ad9-9cc0c8256282/momentof_ngkhub_3x2.jpg?w=936&h=624</li>
+            <li class="tiny">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTEftS3nMEpxh-hE5tb2C0wfStW6FJCWppaK-g2PVXMcTOLTaNtdKZNxHtQdv80gyHEDI&usqp=CAU</li>
+            <li class="tiny">https://www.rd.com/wp-content/uploads/2009/02/A9E74F0C-C86F-443C-AD8F-43EE62451CEF-e1606771208368.jpeg?fit=696%2C696?fit=700,700</li>
+        </ul>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
